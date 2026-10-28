@@ -1,0 +1,7 @@
+*.class
+*.log
+.git
+.vscode
+.idea
+SeatingReport.txt
+data_store.json

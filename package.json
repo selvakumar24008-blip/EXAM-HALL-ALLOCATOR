@@ -1,0 +1,20 @@
+{
+  "name": "exam-hall-allocator",
+  "version": "1.0.0",
+  "description": "Exam Hall Allocator System - Fullstack Web Application deployed to Vercel",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "exam-hall-allocator",
+    "seat-allocation",
+    "core-java",
+    "fullstack",
+    "vercel"
+  ],
+  "author": "2nd-Year B.Tech IT Student",
+  "license": "MIT"
+}

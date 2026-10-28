@@ -1,0 +1,114 @@
+{
+  "students": [
+    {
+      "regNo": "IT101",
+      "name": "Student A",
+      "department": "IT",
+      "isAllocated": true,
+      "allocatedHall": "HALL-1",
+      "seatNumber": "A-01"
+    },
+    {
+      "regNo": "IT102",
+      "name": "Student B",
+      "department": "IT",
+      "isAllocated": true,
+      "allocatedHall": "HALL-1",
+      "seatNumber": "A-02"
+    },
+    {
+      "regNo": "IT103",
+      "name": "Student C",
+      "department": "IT",
+      "isAllocated": true,
+      "allocatedHall": "HALL-1",
+      "seatNumber": "A-03"
+    },
+    {
+      "regNo": "IT104",
+      "name": "Student D",
+      "department": "CSE",
+      "isAllocated": true,
+      "allocatedHall": "HALL-2",
+      "seatNumber": "B-01"
+    },
+    {
+      "regNo": "IT105",
+      "name": "Student E",
+      "department": "CSE",
+      "isAllocated": true,
+      "allocatedHall": "HALL-2",
+      "seatNumber": "B-02"
+    },
+    {
+      "regNo": "IT301",
+      "name": "Test Excel Student",
+      "department": "IT",
+      "isAllocated": false,
+      "allocatedHall": "Not Assigned",
+      "seatNumber": "Not Assigned"
+    },
+    {
+      "regNo": "IT302",
+      "name": "Valid New",
+      "department": "IT",
+      "isAllocated": false,
+      "allocatedHall": "Not Assigned",
+      "seatNumber": "Not Assigned"
+    }
+  ],
+  "halls": [
+    {
+      "hallNo": "HALL-1",
+      "capacity": 3,
+      "allocatedStudents": [
+        {
+          "regNo": "IT101",
+          "name": "Student A",
+          "department": "IT",
+          "seatNumber": "A-01"
+        },
+        {
+          "regNo": "IT102",
+          "name": "Student B",
+          "department": "IT",
+          "seatNumber": "A-02"
+        },
+        {
+          "regNo": "IT103",
+          "name": "Student C",
+          "department": "IT",
+          "seatNumber": "A-03"
+        }
+      ]
+    },
+    {
+      "hallNo": "HALL-2",
+      "capacity": 2,
+      "allocatedStudents": [
+        {
+          "regNo": "IT104",
+          "name": "Student D",
+          "department": "CSE",
+          "seatNumber": "B-01"
+        },
+        {
+          "regNo": "IT105",
+          "name": "Student E",
+          "department": "CSE",
+          "seatNumber": "B-02"
+        }
+      ]
+    }
+  ],
+  "lastAllocation": {
+    "timestamp": "2026-10-27T19:44:02.409Z",
+    "summary": {
+      "totalStudents": 5,
+      "totalCapacity": 5,
+      "allocatedCount": 5,
+      "unallocatedCount": 0,
+      "unallocatedStudents": []
+    }
+  }
+}
